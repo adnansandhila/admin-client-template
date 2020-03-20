@@ -1,0 +1,24 @@
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+  <dict>
+    <key>projectKey</key>
+    <string>nestosh</string>
+    <key>scope</key>
+    <string>manage_project:nestosh</string>
+    <key>clientId</key>
+    <string>5d-UgawFeYCp2x_CrE3C-oj0</string>
+    <key>clientSecret</key>
+    <string>rlX3b88VOrvVfM4qIkIsBPbhCtqr9p89</string>
+    <key>authUrl</key>
+    <string>https://auth.us-central1.gcp.commercetools.com</string>
+    <key>apiUrl</key>
+    <string>https://api.us-central1.gcp.commercetools.com</string>
+    <key>anonymousSession</key>
+    <true/>
+    <key>shareWatchSession</key>
+    <true/>
+  </dict>
+  </plist>
+  

@@ -1,0 +1,42 @@
+Use these credentials to access the project via API:
+nestosh
+
+
+project_key
+nestosh
+
+
+client_id
+5d-UgawFeYCp2x_CrE3C-oj0
+
+
+secret
+rlX3b88VOrvVfM4qIkIsBPbhCtqr9p89
+
+
+scope
+manage_project:nestosh
+
+
+API URL
+https://api.us-central1.gcp.commercetools.com
+
+
+Auth URL
+https://auth.us-central1.gcp.commercetools.com
+
+
+You can download the credentials in various formats below. Doing so may assist you in using the credentials in cURL, an SDK or in other environments.
+
+An Access token using the cURL command is as below which can be used after 2 days by refreshing 
+Refresh Token Flow
+To obtain an access token through the refresh token flow, you need to provide the OAuth client credentials as well as the refresh token.
+
+POST https://{host}/oauth/token
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+Content-Type: application/x-www-form-urlencoded
+grant_type=refresh_token&refresh_token={token}
+Refresh tokens expire 6 months after last usage. Therefore a refresh token that is regularly used will never expire.
+
+
+{"access_token":"3vS8qHCUPG7_AYEGGmjR3616oNXj9Icd","token_type":"Bearer","expires_in":172800,"scope":"manage_project:nestosh"}

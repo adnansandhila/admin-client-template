@@ -1,0 +1,5 @@
+
+curl https://auth.us-central1.gcp.commercetools.com/oauth/token \
+     --basic --user "5d-UgawFeYCp2x_CrE3C-oj0:rlX3b88VOrvVfM4qIkIsBPbhCtqr9p89" \
+     -X POST \
+     -d "grant_type=client_credentials&scope=manage_project:nestosh"
